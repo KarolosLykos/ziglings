@@ -24,10 +24,6 @@ jobs:
         with:
           version: ${{ matrix.zig }}
 
-      # Temporarily disabled.
-      #- name: Check compatibility with old Zig compilers
-       # run: ci/compat.sh
-
   test:
     name: Unit Tests
     strategy:
